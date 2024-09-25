@@ -1,8 +1,8 @@
 // app/components/ArticleList.js
-export default function ArticleList({ articles }) {
+export default function HatenaArticleList({ articles }) {
     return (
         <div>
-            <h2 className="text-2xl font-semibold mb-4">最新のブログ記事</h2>
+            <h2 className="text-2xl font-semibold mb-4">はてなブログ</h2>
             <ul className="space-y-8">
                 {articles.map((item) => {
                     // 概要の調整
